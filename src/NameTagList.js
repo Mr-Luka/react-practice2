@@ -12,7 +12,7 @@ const NameTagList = props => {
           />
     );
     const NameTagElements = props.names.map(renderNameTag);
-    return <main>{nameTagElements}</main>
+    return <main>{NameTagElements}</main>
 }
 
 export default NameTagList;

@@ -4,7 +4,7 @@ import NameTag from "./NameTag.js";
 import { names } from "./data.js";
 
 import "./styles.css";
-
+const renderNameTag = name => <NameTag name={name.name} key={name.id}/>
 const App = () => {
  
   return (

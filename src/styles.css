@@ -21,6 +21,7 @@ input[type="text"] {
   margin: 20px 10px;
   display: inline-block;
   position: relative;
+  border: 1px solid blue;
 }
 .title {
   color: white;

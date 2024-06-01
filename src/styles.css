@@ -28,11 +28,11 @@ input[type="text"] {
   font-size: 40px;
 }
 .subtitle {
-  color: white;
+  color: rgb(254, 161, 22);
   margin: 0;
 }
 .name {
-  background-color: white;
+  background-color: rgb(255, 158, 31);
   margin: 10px 0;
   font-size: 60px;
   height: 90px;

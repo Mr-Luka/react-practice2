@@ -12,6 +12,9 @@ input {
 input[type="text"] {
   width: 200px;
 }
+h1 {
+  color: rgb(119, 0, 255);
+}
 
 .name-tag {
   background-color: rgb(119, 0, 255);

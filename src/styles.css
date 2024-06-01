@@ -38,6 +38,9 @@ input[type="text"] {
   height: 90px;
   font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
 }
+h2 {
+  color: rgb(119, 0, 255);
+}
 .name-tag__delete {
   position: absolute;
   padding: 5px 8px;
@@ -46,6 +49,6 @@ input[type="text"] {
   cursor: pointer;
 }
 .name-tag__delete:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgb(254, 161, 22);
   border-radius: 50%;
 }

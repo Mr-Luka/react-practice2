@@ -25,6 +25,9 @@ h1 {
   display: inline-block;
   position: relative;
 }
+.name-tag:hover {
+  animation: animate 0.4s;
+}
 .title {
   color: rgb(254, 161, 22);
   margin: 0;

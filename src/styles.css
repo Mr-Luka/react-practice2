@@ -52,6 +52,9 @@ h1:hover {
 h2 {
   color: rgb(119, 0, 255);
 }
+h2:hover {
+  animation: animate 0.4s;
+}
 .name-tag__delete {
   position: absolute;
   padding: 5px 8px;

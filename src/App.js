@@ -16,6 +16,11 @@ class App extends Component {
     const newNames =[...this.state.names, name];
     this.setState({names: newNames});
   }
+    componentDidUpdate() {
+    const savedNameString = JSON.stringify(this.state.names);
+    localStorage.setItem("savedNamed", savedNameString);
+
+  }
   handleSubmit = e => {
         e.preventDefault();
         this.addName(this.state.name);

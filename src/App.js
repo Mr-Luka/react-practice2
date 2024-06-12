@@ -4,7 +4,8 @@ import Header from "./Header.js"
 
 class App extends Component {
   state = {
-    names: ["Agumon", "Gabumon", "Patamon"]
+    names: ["Agumon", "Gabumon", "Patamon"],
+    name: ""
   }
   removeName = (clickedIndex) => {
     const filterCallback = (_, index) => index !== clickedIndex;
@@ -35,11 +36,19 @@ class App extends Component {
     }
 
   updateName = e => this.setState({name: e.target.value});
+  
   render () {
     return (
       <div className="App">
-        <Header addName={this.addName} updateName={this.updateName} handleSubmit={this.handleSubmit}/>
-        <NameTagList names={this.state.names} removeName = {this.removeName}/>
+        <Header 
+          addName={this.addName} 
+          updateName={this.updateName} 
+          handleSubmit={this.handleSubmit}
+          name={this.state.name}
+          />
+        <NameTagList 
+          names={this.state.names} 
+          removeName = {this.removeName}/>
       </div>
     )
   }

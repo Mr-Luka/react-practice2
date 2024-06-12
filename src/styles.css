@@ -42,6 +42,28 @@ h1:hover {
   color: rgb(254, 161, 22);
   margin: 0;
 }
+
+.search,
+.add-new {
+  font-size: 14px;
+  padding: 5px;
+  margin: 8px;
+}
+
+.search {
+  flex-grow: 1;
+  max-width: 300px;
+}
+
+.add-new {
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px;
+  font-weight: bolder;
+  background-color: #eee;
+  outline: none;
+}
+
 .name {
   background-color: rgb(255, 158, 31);
   margin: 10px 0;
